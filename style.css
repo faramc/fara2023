@@ -1,0 +1,169 @@
+body{
+    background-color:rgb(2, 7, 60);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0%;
+    padding: 0%;
+}
+
+h1{
+    margin-top: 30px;
+    color:rgb(252, 252, 0);
+    text-align:center;
+    font-size: 70px;
+    
+  
+    
+}
+h1:hover{
+    color:blue;
+}
+.titulo img{
+    height: 200px;
+margin-left: 45%;
+background-color:rgb(69, 69, 15) ;
+border-radius: 50px;
+}
+
+
+
+nav{
+    background-color: rgb(225, 225, 20);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    list-style: none;
+    margin: 2%;
+    display:flex;
+    /* padding-left: 15%; */
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+    padding: 14px  25px;
+    display: block;
+    font-weight: 700;
+font-size: 25PX;
+margin-top: auto;
+    /* background-color:aliceblue ;
+    margin: 8%;
+    border-radius: 4px; */
+
+}
+nav a:hover{
+  
+    color:rgb(8, 0, 252); 
+
+}
+.bocajuniors{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    justify-content: center;
+}
+
+.camiseta{
+    display: block;
+    margin: 12px;
+    padding: 20px;
+    background-color: rgb(215, 215, 29);
+    border-radius: 3px;
+    box-shadow: 0 15px 20px rgba(0,0,0);
+}
+
+.camiseta img{
+    width: 100%;
+    height:auto;
+}
+
+.camiseta h3{
+    color:rgb(8, 1, 43);
+    font-size: 18px;
+    text-align: center;
+}
+
+.camiseta p{
+    color:rgb(34, 38, 1);
+    text-align: center;
+    font-weight: 600;
+}
+/* -----------------------------------------
+Form */
+
+form{
+    max-width: 400px;
+    margin: 0%;
+    margin-left: 60px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(238, 255, 0);
+    font-weight: 600;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: rgb(242, 231, 8);
+    color: black;
+    font-weight: 400;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 1s;
+}
+
+button:hover{
+   background-color: rgb(79, 6, 237);
+    color:rgb(252, 235, 0); 
+}
+
+h2{
+    color: rgb(225, 225, 20);
+    margin-left: 50px;
+}
+h2:hover{
+color: rgb(8, 0, 252);
+}
+/* -------------------------------------- */
+/* Responsive */
+
+/* Tablet */
+@media (min-width:501px){
+    .camiseta{
+        width: 35%;
+       
+        
+    }
+
+}
+
+/* Compu */
+@media (min-width:801px){
+    .camiseta1{
+        width: 16%;
+    }
+
+    }
+    @media (min-width:1200px){
+        .camiseta{
+            width: 25%;
+        }
+        
+    } 
+        
+    
+
+
